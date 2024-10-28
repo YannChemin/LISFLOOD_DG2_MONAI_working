@@ -1,0 +1,17 @@
+Looking for a CUDA compiler failed with the following output:
+CMake Error at /usr/share/cmake-3.25/Modules/CMakeDetermineCUDACompiler.cmake:180 (message):
+  Failed to find nvcc.
+
+  Compiler requires the CUDA toolkit.  Please set the CUDAToolkit_ROOT
+  variable.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/copernicus/dev/LISFLOOD-FP-v8.2/LISFLOOD-FP/build/CMakeFiles/CheckCUDA/CMakeFiles/CMakeOutput.log".
+See also "/home/copernicus/dev/LISFLOOD-FP-v8.2/LISFLOOD-FP/build/CMakeFiles/CheckCUDA/CMakeFiles/CMakeError.log".
+
+Detecting the CUDA native architecture(s) failed with the following output:
+  No CUDA devices found.
+

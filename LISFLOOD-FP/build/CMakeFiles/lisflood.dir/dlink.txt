@@ -1,0 +1,1 @@
+/usr/local/cuda-12.6/bin/nvcc -forward-unknown-to-host-compiler -O3 -DNDEBUG --generate-code=arch=compute_61,code=[compute_61,sm_61] -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink --options-file CMakeFiles/lisflood.dir/deviceObjects1 -o CMakeFiles/lisflood.dir/cmake_device_link.o --options-file CMakeFiles/lisflood.dir/deviceLinkLibs.rsp
